@@ -3,18 +3,13 @@
 
 @theme {
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
-  
-  --color-page-bg: #EFF6FF;
-  --color-sidebar-bg: #E0ECFF;
-  --color-sidebar-text: #1E3A8A;
-  --color-active-menu: #2563EB;
-  --color-card-border: #BFDBFE;
-  --color-muted-text: #64748B;
-  --color-accent-blue: #3B82F6;
 }
 
 @layer base {
   body {
-    @apply font-sans text-sidebar-text bg-page-bg;
+    @apply font-sans antialiased;
   }
+}
+
+@layer utilities {
 }
